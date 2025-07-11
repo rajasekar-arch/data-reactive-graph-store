@@ -1,0 +1,49 @@
+{
+  "name": "data-reactive-graph-store",
+  "version": "1.0.0",
+  "description": "A client-side, reactive data store that treats data as a graph, allowing you to define relationships and query across them. It would include built-in, pluggable offline-first synchronization (e.g., CRDT-inspired merging, conflict resolution strategies) and provide reactive updates when any related part of the graph changes.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "lint": "eslint src/**/*.ts",
+    "format": "prettier --write \"src/**/*.ts\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rajasekar-arch/data-reactive-graph-store.git"
+  },
+  "keywords": [
+    "graph",
+    "data store",
+    "reactive",
+    "offline-first",
+    "synchronization",
+    "state management",
+    "typescript",
+    "client-side",
+    "crdt (conceptual)"
+  ],
+  "author": "RAJASEKAR E C <rajasekar_e_c@outlook.com>",
+  "license": "MIT",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/rajasekar-arch/data-reactive-graph-store/issues"
+  },
+  "homepage": "https://github.com/rajasekar-arch/data-reactive-graph-store#readme",
+  "dependencies": {
+
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.12",
+    "@types/node": "^20.14.9",
+    "@typescript-eslint/eslint-plugin": "^7.14.1",
+    "@typescript-eslint/parser": "^7.14.1",
+    "eslint": "^8.57.0",
+    "jest": "^29.7.0",
+    "prettier": "^3.3.2",
+    "ts-jest": "^29.1.5",
+    "typescript": "^5.8.3"
+  }
+}
